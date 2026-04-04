@@ -1,5 +1,6 @@
 class A extends Thread
 {
+    @Override
     public void run()
     {
         System.out.println("threadA started");
@@ -13,6 +14,7 @@ class A extends Thread
 
 class B extends Thread
 {
+    @Override
     public void run()
     {
         System.out.println("threadB started");
@@ -26,6 +28,7 @@ class B extends Thread
 
 class C extends Thread
 {
+    @Override
     public void run()
     {
         System.out.println("threadC started");
